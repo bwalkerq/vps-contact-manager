@@ -1,0 +1,53 @@
+#search-header {
+    display: inline-block;
+}
+
+#search {
+    min-width: 450px;
+}
+
+/* Basic styling for the form */
+#contact-information {
+    max-width: 600px; /* Set a max width for the form */
+    margin: 0 auto; /* Center the form */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of items */
+}
+
+/* Center the title */
+#contact-information-title, #new-tag-header {
+    text-align: center; /* Center the text */
+    width: 100%; /* Make sure it takes full width */
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+/* Style for the left column */
+.left-column {
+    flex: 1; /* Take up available space */
+    min-width: 200px; /* Minimum width for the column */
+    margin-right: 20px; /* Space between columns */
+}
+
+/* Style for the right column */
+.right-column {
+    flex: 1; /* Take up available space */
+    min-width: 200px; /* Minimum width for the column */
+}
+
+/* Stack elements vertically */
+label, input, select {
+    display: block; /* Make each element a block to stack them */
+    margin-bottom: 10px; /* Add space between elements */
+    width: 100%; /* Make inputs and select take full width */
+}
+
+/* Optional: Style the select box */
+select {
+    height: auto; /* Allow height to adjust based on size */
+}
+
+/* Style the submit and cancel buttons */
+input[type="submit"], input[type="button"] {
+    width: auto; /* Adjust button width */
+    margin-right: 5px; /* Add space between buttons */
+}

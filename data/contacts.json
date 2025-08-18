@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "full_name": "Naveed Fida",
+    "email": "nf@example.com",
+    "phone_number": "12345678901",
+    "tags": "soccer,xfit,climbing,dance"
+  },
+  {
+    "id": 2,
+    "full_name": "Victor Reyes",
+    "email": "vpr@example.com",
+    "phone_number": "09876543210",
+    "tags": "work,friend"
+  },
+  {
+    "full_name": "jo",
+    "phone_number": "1234",
+    "email": "jo@jojo",
+    "tags": "",
+    "id": 3
+  },
+  {
+    "full_name": "baba",
+    "phone_number": "ba",
+    "email": "ba",
+    "tags": "climbing,dance",
+    "id": 4
+  },
+  {
+    "full_name": "jeff",
+    "phone_number": "asdf",
+    "email": "asdf",
+    "tags": "bike",
+    "id": 5
+  }
+]
